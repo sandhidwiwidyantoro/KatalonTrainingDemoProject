@@ -31,5 +31,6 @@ WebUI.click(findTestObject('Object Repository/Page_AdminJS Demo/button_Login'))
 
 WebUI.verifyTextPresent('example@adminjs.co', false)
 
+'.'
 WebUI.closeBrowser()
 
