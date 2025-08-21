@@ -6,6 +6,12 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>706c6851-a2e4-4949-8db0-cc04310dae57</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92e3475b-7e4d-4f92-b412-968655d053bb</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'example@adminjs.co'</defaultValue>
       <description></description>
