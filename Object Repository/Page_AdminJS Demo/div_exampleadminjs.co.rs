@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_exampleadminjs.co</name>
+   <tag></tag>
+   <elementGuidId>d77cedc4-a280-456a-b406-2eae94feab79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/section/section[2]/section/section[3]/section[2]/div/section/section/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>section.sc-dmqHEX.eYgoZG.adminjs_Box > div.sc-iCmkLe.htHLzT</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;example@adminjs.co&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>df73bf25-5b01-4166-b1d5-8ca2dae0a82b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-iCmkLe htHLzT</value>
+      <webElementGuid>3110bd8a-de34-4f47-9488-661fd6b30719</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>example@adminjs.co</value>
+      <webElementGuid>90e26f39-59a3-4cc9-a78b-64588bbc80ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/section[@class=&quot;sc-dmqHEX fUEhri adminjs_Box&quot;]/section[@class=&quot;sc-dmqHEX qGZdb adminjs_Box&quot;]/section[@class=&quot;sc-dmqHEX sc-dExYQz eYgoZG lfsyRA adminjs_NavBar&quot;]/section[@class=&quot;sc-dmqHEX sc-iYdbym bLTvbU koMApp adminjs_Box&quot;]/section[@class=&quot;sc-dmqHEX sc-hNeXkk cxNCgA bguMih adminjs_Box&quot;]/div[@class=&quot;sc-cPlDXj SiGUg&quot;]/section[@class=&quot;sc-dmqHEX gxrojD adminjs_Box&quot;]/section[@class=&quot;sc-dmqHEX eYgoZG adminjs_Box&quot;]/div[@class=&quot;sc-iCmkLe htHLzT&quot;]</value>
+      <webElementGuid>1f7e47d3-d443-4567-9bb7-29e5cfcaf4c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/section/section[2]/section/section[3]/section[2]/div/section/section/div</value>
+      <webElementGuid>52101ccd-38aa-4366-9ad9-6fe531991479</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documentation'])[1]/following::div[2]</value>
+      <webElementGuid>efa5d12e-afa1-4fe4-b224-49ec78956aa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[1]/following::div[2]</value>
+      <webElementGuid>592a2607-44b8-4019-bbd9-581f2eaa2eb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/preceding::div[1]</value>
+      <webElementGuid>26b0095d-a267-4689-bdbd-01dde914e827</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contribute to AdminJS'])[1]/preceding::div[2]</value>
+      <webElementGuid>4616cc9c-a96c-411c-a6b5-74f2d0fcb1bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='example@adminjs.co']/parent::*</value>
+      <webElementGuid>c1f62fb3-2d67-4026-8491-4b27f65db8d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/section/section/div</value>
+      <webElementGuid>0ece6aa8-a16a-4b94-85e3-19071a21bb00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'example@adminjs.co' or . = 'example@adminjs.co')]</value>
+      <webElementGuid>8bf5b6ae-f9ef-41b4-b88b-fd2483954853</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

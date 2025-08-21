@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ScriptModeDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>706c6851-a2e4-4949-8db0-cc04310dae57</testCaseGuid>
+   <variable>
+      <defaultValue>'example@adminjs.co'</defaultValue>
+      <description></description>
+      <id>92e3475b-7e4d-4f92-b412-968655d053bb</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
