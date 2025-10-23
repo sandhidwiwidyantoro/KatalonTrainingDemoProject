@@ -17,6 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'a'
-WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/CheckpointOne'), true)
+'c'
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRMM/input_Username_username'), 'admin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRMM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRMM/button_Login'))
 

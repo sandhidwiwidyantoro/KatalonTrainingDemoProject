@@ -17,17 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('demo/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Admin'))
+WebUI.navigateToUrl('https://demo.adminjs.co/app/login')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_PIM'))
+WebUI.setText(findTestObject('Page_AdminJS Demoo/input_Email_email'), 'example@adminjs.co')
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_OrangeHRM/a_Leave'))
+WebUI.setEncryptedText(findTestObject('Page_AdminJS Demoo/input_Password_password'), '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/img_Upgrade_oxd-userdropdown-img'))
+WebUI.click(findTestObject('Page_AdminJS Demoo/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
+'A'
+WebUI.verifyTextPresent('example@adminjs.co', false)
 
 WebUI.closeBrowser()
 

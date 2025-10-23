@@ -17,20 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+'c'
+CustomKeywords.'MyKeywords.hello'()
 
-WebUI.delay(7)
-
-WebUI.navigateToUrl('https://demo.adminjs.co/app/login')
-
-WebUI.setText(findTestObject('Object Repository/Page_AdminJS Demo/input_Email_email'), username)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_AdminJS Demo/input_Password_password'), '8SQVv/p9jVScEs4/2CZsLw==')
-
-WebUI.click(findTestObject('Object Repository/Page_AdminJS Demo/button_Login'))
-
-WebUI.verifyTextPresent('example@adminjs.co', false)
-
-'.'
-WebUI.closeBrowser()
+CustomKeywords.'MyKeywords.helloUser'('sandhi')
 

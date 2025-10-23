@@ -17,19 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'c'
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+not_run: WebUI.delay(7)
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), username)
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Password_password'), password)
+WebUI.setText(findTestObject('Object Repository/Page_AdminJS Demoo/input_Email_email'), GlobalVariable.USERNAME)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_AdminJS Demoo/input_Password_password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_manda user'))
+WebUI.click(findTestObject('Object Repository/Page_AdminJS Demoo/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
+WebUI.verifyTextPresent('example@adminjs.co', false)
 
 WebUI.closeBrowser()
 
