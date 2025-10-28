@@ -6,10 +6,10 @@
    <UUID>3a79209b-3904-4a4e-b894-975dab24fb81</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.2.4</createdVersion>
-   <freeLicense>true</freeLicense>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
-   <modifiedVersion>10.2.4</modifiedVersion>
+   <modifiedVersion>10.3.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>C:\Users\sandh\KatalonStudio\MyFirstWebUIProject\My First Web UI Project.prj</projectFileLocation>
    <sourceContent>

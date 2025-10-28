@@ -19,18 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.delay(7)
+WebUI.navigateToUrl('https://practicetestautomation.com/practice-test-login/')
 
-WebUI.navigateToUrl('https://demo.adminjs.co/app/login')
+WebUI.setText(findTestObject('Object Repository/Page_Test Login  Practice Test Automation/input_Username_username'), 'student')
 
-WebUI.setText(findTestObject('Object Repository/Page_AdminJS Demoo/input_Email_email'), username)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Test Login  Practice Test Automation/input_Password_password'), 'p4y+y39Ir5PJb2ispxT0Ew==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_AdminJS Demoo/input_Password_password'), '8SQVv/p9jVScEs4/2CZsLw==')
+WebUI.click(findTestObject('Object Repository/Page_Test Login  Practice Test Automation/button_Submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_AdminJS Demoo/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Test Login  Practice Test Automation/button_Log out'))
 
-WebUI.verifyTextPresent('example@adminjs.co', false)
-
-'.'
 WebUI.closeBrowser()
 

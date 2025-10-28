@@ -27,7 +27,6 @@ WebUI.setEncryptedText(findTestObject('Page_AdminJS Demoo/input_Password_passwor
 
 WebUI.click(findTestObject('Page_AdminJS Demoo/button_Login'))
 
-'a\r\n'
 WebUI.verifyTextPresent('example@adminjs.co', false)
 
 WebUI.closeBrowser()
