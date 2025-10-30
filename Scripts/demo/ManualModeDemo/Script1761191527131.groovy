@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demo.adminjs.co/app/login')
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Page_AdminJS Demoo/input_Email_email'), 'example@adminjs.co')
+WebUI.setText(findTestObject('Page_OrangeHRMM/input_Username_username'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Page_AdminJS Demoo/input_Password_password'), '8SQVv/p9jVScEs4/2CZsLw==')
+WebUI.setEncryptedText(findTestObject('Page_OrangeHRMM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Page_AdminJS Demoo/button_Login'))
+WebUI.click(findTestObject('Page_OrangeHRMM/button_Login'))
 
-WebUI.verifyTextPresent('example@adminjs.co', false)
+WebUI.verifyTextPresent('PIM', false)
 
 WebUI.closeBrowser()
 
